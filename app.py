@@ -3,7 +3,7 @@ from flask import Flask, render_template, request, jsonify
 app = Flask(__name__)
 
 from pymongo import MongoClient
-client = MongoClient('mongodb+srv://sparta:test@cluster0.h7shnou.mongodb.net/?retryWrites=true&w=majority')
+client = MongoClient('mongo_DB URL 입력')
 db = client.dbsparta
 
 
